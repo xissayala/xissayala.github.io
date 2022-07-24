@@ -1,21 +1,22 @@
-/*const preloader = document.querySelector(".preloader");
+const preloader = document.querySelector(".preloader");
 const button = document.querySelector(".preloader-content_button");
 let animInterval;
 let loadInterval;
 
-const videoId = "KL0SJm4qkGg"
+const videoId = "StR8grl2Ikc"
 YT.ready(_=>{
     window.player = new YT.Player("player", {
         videoId: videoId,
         playerVars: { "autoplay": 0, "controls": 0, "loop": 1, "playlist": videoId},
         events: {
             "onReady": e => {
-                e.target.setVolume(25);
+                e.target.setVolume(10);
                 clearInterval(loadInterval)
-                button.innerText = "Don't be afraid, just click"
+                button.innerText = "wellcome"
                 button.classList.add("ready");
                 button.addEventListener("click", () => {
                     animInterval = setInterval(preloaderAnim, 10);
+                    button.classList.add("clicked");
                     button.classList.add("clicked");
                 });
             }
@@ -46,6 +47,4 @@ function preloaderAnim() {
         player.unMute();
         player.playVideo();
     };
-};
-
-*/
+};  
