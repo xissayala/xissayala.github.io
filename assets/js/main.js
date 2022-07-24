@@ -1,4 +1,4 @@
-const preloader = document.querySelector(".preloader");
+/*const preloader = document.querySelector(".preloader");
 const button = document.querySelector(".preloader-content_button");
 let animInterval;
 let loadInterval;
@@ -48,3 +48,4 @@ function preloaderAnim() {
     };
 };
 
+*/
