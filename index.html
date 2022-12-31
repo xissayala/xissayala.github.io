@@ -1,67 +1,73 @@
-<!doctype html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="xissayala">
-    <meta name="language" content="Russian">
-    <meta name="description" content="Pwning hvh and dota since birth"/>
-    <meta name="author" content="xissayala"/>
-    <meta content="#ffffff" data-react-helmet="true" name="theme-color" />
-    <meta content="./assets/img/avatar_gif.gif" property="og:image" />
-    <link rel="shortcut icon" href="./assets/img/avatar_ico.ico" type="image/png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="./assets/css/style.css" rel="stylesheet">
-    <link href="./assets/css/font.css" rel="stylesheet">
-    <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+<!DOCTYPE HTML>
+<html>
+<head>
     <title>Xissayala</title>
-  </head>
-  <body>
-    <div class="preloader">
-        <div class="preloader-content">
-            <div class="preloader-content_button">
-                ⠿
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/cv-logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="center">
+        <p class="head">
+            <a href="index.html">
+                <img class="imgc header" src="img/logo_bg.png" height="200">
+            </a>
+        </p>
+        <p class="first">
+            <div class="icon">
+                <a href="https://vk.com/xissayala/">
+                <img class="imgc" src="img/vk.svg" height="40">
+                <p class="i">VKontakte</p></a>
             </div>
-        </div>
-    </div>
-    <div class="main_container_video">
-        <div id="player"></div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="content">
-                <div class="content-logo">
-                    <img src="./assets/img/avatar.png">
-                </div>
-                <div class="content-text">
-                    xissayala
-                </div>
-                <div class="content-links">
-                    <a href="https://discord.com" target="_blank">
-                        <i class="fab fa-discord"></i>
-                        Xissayala#5557
-                    </a>
-                    <a href="https://github.com/xissayala" target="_blank">
-                        <i class="fab fa-github"></i>
-                        Github
-                    </a>
-                    <a href="https://vk.com/xissayala" target="_blank">
-                        <i class="fab fa-vk"></i>
-                        VK
-                    </a>
-                    <a href="https://t.me/xissayala" target="_blank">
-                        <i class="fab fa-telegram-plane"></i>
-                        Telegram
-                    </a>
-                    <a href="https://steamcommunity.com/id/xissayala/" target="_blank">
-                        <i class="fab fa-steam"></i>
-                        Steam
-                    </a>
-                </div>
+            <span class="blue">•</span> 
+            <div class="icon">
+                <a href="https://t.me/xissayala/">
+                <img class="imgc" src="img/tg.svg" height="40">
+                <p class="i">Telegram</p></a>
             </div>
-        </div>
+            <span class="blue">•</span> 
+            <div class="icon">
+                <a onclick=copydiscord()>
+                <img class="imgc" src="img/ds.svg" height="40">
+                <p class="i">Discord</p></a>
+            </div>
+            <span class="blue">•</span> 
+            <div class="icon">
+                <a href="https://github.com/xissayala">
+                <img class="imgc" src="img/github.svg" height="40">
+                <p class="i">Github</p></a>
+            </div>
+        </p>
     </div>
-    <script src="./assets/js/main.js"></script>
-    <script src="https://kit.fontawesome.com/b617dc6679.js" crossorigin="anonymous"></script>
-  </body>
+    <div class="mobile">
+        <a href="index.html"><img class="imgc" src="img/logo_bg.png" height="200"></a>
+       <p style="margin-top: 25px;">
+        <div class="icon">
+            <a href="https://vk.com/xissayala/">
+            <img class="imgc" src="img/vk.svg" height="40">
+            <p class="i">VKontakte</p></a>
+        </div>
+        <span class="blue">•</span> 
+        <div class="icon">
+            <a href="https://t.me/xissayala/">
+            <img class="imgc" src="img/tg.svg" height="40">
+            <p class="i">Telegram</p></a>
+        </div>
+        <span class="blue">•</span> 
+        <div class="icon">
+            <a onclick = copydiscord()>
+            <img class="imgc" src="img/ds.svg" height="40">
+            <p class="i">Discord</p></a>
+        </div> 
+        <span class="blue">•</span> 
+        <div class="icon">
+            <a href="https://github.com/xissayala">
+            <img class="imgc" src="img/github.svg" height="40">
+            <p class="i">Github</p></a>
+        </div>
+       </p>
+    </div>
+    <p id="ds" style="display: none; pointer-events: none;">Discord ID copied to clipboard</p>
+</body>
 </html>
