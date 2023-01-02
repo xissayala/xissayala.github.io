@@ -51,15 +51,12 @@ p.i {
 
 div.icon {
     color: white;
-    filter: grayscale(100%);
     transition: 0.5s;
 }
 
 div.icon:hover {
     color: white;
     transition: 0.5s;
-    cursor: pointer;
-    filter: grayscale(0%);
 }
 
 img.i {
@@ -72,10 +69,12 @@ img.i:hover { height: 37px }
 a { 
     text-decoration: none;
     color: white;
+    filter: grayscale(100%);
     transition: 0.5s
 }
 
 a:hover {
+    filter: grayscale(0%);
     color: rgb(197, 215, 255);
     cursor: pointer;
 }
