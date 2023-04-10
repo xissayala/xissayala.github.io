@@ -6,6 +6,7 @@ body {
     color: white;
     font-family: 'Roboto Mono', monospace;
     cursor: default;
+    overflow: hidden;
 }
 
 .center {
